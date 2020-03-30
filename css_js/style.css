@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(241, 242, 246,1.0);
+    font-family: 'Inconsolata', monospace !important;
+}
+
+#preloader{
+    position: fixed;
+    z-index: 300 !important;
+    bottom: 14%;
+    right: 2.7%;
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(253, 116, 101) !important;
+}
+
+header,section{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.nav-bar-c{
+    border-radius: 0 !important;
+    border: 0px !important;
+    font-family: inherit !important;
+}
+
+.nav-bar-c a, .drpd-text{
+    font-weight: 700 !important;
+    font-size: 11pt;
+    color: rgba(52, 73, 94,1.0) !important;
+}
+
+.item-c1{
+    padding: 15px !important;
+    margin: 0 !important;
+}
+
+.drpd-menu{
+    margin: 0 22px 0 0 !important;
+}
+
+.drpd-menu>.item>.fas{
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 9pt !important;
+}
+
+.main-search-field{
+    position: fixed;
+    z-index: 250;
+    width: 820px;
+    top: -130px;
+    right: 180px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.main-search-field>.card{
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.src-inp{
+    padding: 20px !important;
+    background: rgba(182, 179, 179, 0.08) !important;
+}
+
+#src-close{
+    display: none;
+}
+
+.cont-con{
+    max-height: 250px !important;
+    overflow-y: auto !important;
+}
+
+.anchorlink:link{
+    color: rgb(226, 75, 59);
+    font-size: 12pt !important;
+}
+
+.anchorlink:visited{
+    color: rgb(39, 146, 39);
+}
+
+section{
+    margin-top: 110px !important;
+    margin-bottom: 80px !important;
+}
+
+.wrapper1{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.wrapper2{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.wrapper3{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-con{
+    width: 31.33%;
+    float: left;
+    overflow: hidden;
+    margin: 0 1% 2% 1%;
+    padding: 6px;
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+}
+
+.card-c1, .card-c3{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    width: 100% !important;
+}
+
+.card-con:hover{
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px);
+}
+
+.btn1{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    width: 100% !important;
+    background: transparent;
+    border: 1px solid rgb(41,188,76);
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-size: 12pt;
+    font-weight: 700;
+    color: rgb(41,188,76) !important;
+}
+
+.btn1:hover{
+    background: rgb(41,188,76);
+    color: white !important;
+}
+
+.header-c1{
+    margin-top: 6px !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 12pt !important;
+    border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+    color: rgba(52, 73, 94,1.0) !important;
+    font-family: inherit !important;
+}
+
+.c-footer{
+    margin-bottom: 15px !important;
+}
+
+.card-c2{
+    width: 100% !important;
+    padding: 30px !important;
+}
+
+.btn2{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-family: inherit !important;
+    font-size: 11pt !important;
+}
+
+label{
+    font-size: 11pt !important;
+    font-family: inherit !important;
+    color: rgba(52, 73, 94,1.0) !important;
+}
+
+#range_slider{
+    width: 100% !important;
+}
+
+.avatar-icon{
+    padding: 25px 0;
+    margin: 0;
+    text-align: center !important;
+}
+
+.header-c2{
+    color: rgba(52, 73, 94,1.0) !important;
+    font-family: inherit !important;
+    font-size: 15pt !important;
+    margin-bottom: 5px !important;
+}
+
+th,tr{
+    font-size: 11.5pt !important;
+    color: rgba(52, 73, 94,1.0) !important;
+}
+
+.active-link{
+    background: rgb(38, 126, 221) !important;
+    color: white !important;
+}
+
+.progress, .bar{
+    margin: 0 !important;
+    height: 10px !important;
+}
+
+.table-con{
+    overflow-x: auto !important;
+}
+
+.inline-chkbox{
+    margin: 10px 0 20px 0 !important;
+}
+
+.only-icon{
+    display: block !important;
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50% !important;
+    text-decoration: none !important;
+    transition: all 0.1s;
+}
+
+.icon-c1{
+    position: absolute !important;
+    top: 22% !important;
+    left: 25% !important;
+}
+
+.only-icon:hover{
+    background-color: rgba(128, 128, 128, 0.2) !important;
+}
+
+.inline-filter-con{
+    width: 20%;
+    float: right !important;
+    padding: 2px;
+    margin: 0 2px 20px 0px;
+}
+
+.site-info{
+    display: block !important;
+    position: fixed;
+    z-index: 200;
+    bottom: 5%;
+    right: 2%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,0.2) !important;
+    border-radius: 50%;
+}
+
+/*img[alt='www.000webhost.com']{
+    display: none !important;
+}*/
+
+@media all and (max-width: 1600px){
+    .wrapper1{
+        width: 90%;
+    }
+
+    .wrapper3{
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 1380px){
+
+    .wrapper1{
+        width: 98%;
+    }
+
+    .wrapper3{
+        width: 85%;
+    }
+
+    .wrapper2{
+        width: 45%;
+    }
+
+    .inline-filter-con{
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 1200px){
+    .wrapper3{
+        width: 90%;
+    }
+
+    .wrapper2{
+        width: 55%;
+    }
+
+    .main-search-field{
+        width: 560px;
+    }
+
+    .inline-filter-con{
+        width: 40%;
+    }
+
+    .card-con{
+        width: 48%;
+    }
+
+}
+
+@media all and (max-width: 767px){
+    section{
+        margin-top: 300px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .card-con{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .item-c1{
+        padding: 12px 30px !important;
+    }
+
+    .wrapper3{
+        width: 98%;
+    }
+
+    .wrapper2{
+        width: 80%;
+    }
+
+    .drpd-menu{
+        margin-right: 0px !important;
+    }
+
+    .main-search-field{
+        width: 450px;
+        right: 15px;
+    }
+
+    .inline-filter-con{
+        width: 50%;
+    }
+}
+
+
+@media all and (max-width: 550px){
+
+    .wrapper2{
+        width: 98%;
+    }
+
+    .main-search-field{
+        width: 250px;
+        right: 10px;
+    }
+
+    .inline-filter-con{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+
+}
